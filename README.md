@@ -1,6 +1,6 @@
-# Home Credit Default Risk - Credit Risk Model
+# Credit Default Scoring
 
-Technical test posisi Data Scientist di Home Credit Indonesia. Tujuannya membangun model prediksi **credit default** untuk proses approval kredit, dengan dua versi model sesuai permintaan soal: **Logistic Regression** (baseline interpretable) dan **LightGBM** (boosting).
+Model prediksi **credit default** untuk proses approval kredit, dibangun dalam dua versi: **Logistic Regression** (baseline interpretable) dan **LightGBM** (boosting).
 
 Dataset: Kaggle [Home Credit Default Risk](https://www.kaggle.com/competitions/home-credit-default-risk).
 
@@ -29,12 +29,12 @@ outputs/
   submission.csv                 # Prediksi untuk application_test
   figures/                       # Grafik untuk PPT
 requirements.txt
-Home Credit Default Risk.pptx    # PPT presentasi (maks 5 slide)
+Home Credit Default Risk.pptx    # PPT
 ```
 
 Prinsip: logika inti ada di `src/` dan dipakai bersama oleh notebook dan `credit_risk_model.py`, jadi hasil keduanya konsisten dan tidak ada kode yang diduplikasi.
 
-## Cara pakai (how to use)
+## Cara Menggunakan
 
 ### 1. Siapkan environment
 
@@ -76,9 +76,9 @@ Buka `Home Credit Default Risk.ipynb` di Jupyter/VS Code lalu Run All, atau ekse
 .venv\Scripts\python.exe -m nbconvert --to notebook --execute --inplace "Home Credit Default Risk.ipynb" --ExecutePreprocessor.kernel_name=hci-venv --ExecutePreprocessor.timeout=1200
 ```
 
-## Deliverable dan submission
+## Deliverable
 
-Tiga output yang diminta soal: **Python Notebook** (`Home Credit Default Risk.ipynb`), **Python Script** (`credit_risk_model.py` + `src/`), dan **PPT maks 5 slide** (`Home Credit Default Risk.pptx`).
+Tiga output utama: **Python Notebook** (`Home Credit Default Risk.ipynb`), **Python Script** (`credit_risk_model.py` + `src/`), dan **PPT 5 slide** (`Home Credit Default Risk.pptx`).
 
 ## Catatan Gen AI
 
