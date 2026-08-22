@@ -4,6 +4,9 @@
 # Allowlist: only these are tracked
 !/.gitignore
 !/src/
+!Home Credit Default Risk.ipynb
+!README.md
+!credit_risk_model.py
 
 # Still ignored even inside the allowlist
 __pycache__/
