@@ -1,0 +1,15 @@
+# Ignore everything at the repo root
+/*
+
+# Allowlist: only these are tracked
+!/.gitignore
+!/src/
+
+# Still ignored even inside the allowlist
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.env.*
+*.key
+*.pem
